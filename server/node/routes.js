@@ -65,7 +65,11 @@ router.post("/charge", (req, res) => {
         })
       )
       .then(() => res.render('completed.html'))
-      .catch(err => console.log(err));
+      .catch(err => {
+        console.log(err)
+        res.render('failed.html')
+        return
+      });
   } catch (err) {
     res.render('failed.html')
   }
