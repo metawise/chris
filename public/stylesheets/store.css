@@ -159,7 +159,7 @@ fieldset label:not(:last-child) {
 
 fieldset label.state {
   display: inline-flex;
-  width: 75%;
+  width: 65%;
 }
 
 fieldset:not(.with-state) label.state {
@@ -178,7 +178,7 @@ fieldset:not(.with-state) label.zip {
 
 fieldset label span {
   min-width: 125px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
   text-align: right;
 }
 
@@ -213,7 +213,7 @@ span#generate:hover {
 
 .field {
   flex: 1;
-  padding: 0 15px;
+  /* padding: 0 15px; */
   background: transparent;
   font-weight: 400;
   color: #31325f;
@@ -1267,7 +1267,7 @@ button:active {
   }
   #payment-form {
     margin: 0;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     border-width: 2px 0 0 0;
     border-radius: 0;
   }
