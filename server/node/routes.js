@@ -64,10 +64,10 @@ router.post("/charge", (req, res) => {
           customer: customer.id
         })
       )
-      .then(() => res.redirect('https://www.chrisdivecchio.com/'))
+      .then(() => res.render('completed.html'))
       .catch(err => console.log(err));
   } catch (err) {
-    res.send(err);
+    res.render('failed.html')
   }
 });
 // Webhook handler to process payments for sources asynchronously.
