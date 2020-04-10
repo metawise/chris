@@ -53,7 +53,7 @@ router.post("/charge", (req, res) => {
             country: req.body.country
           },
           phone:req.body.phonenumber,
-          name: req.body.company,
+          name: req.body.name,
         },
         source: req.body.stripeToken
       })
