@@ -64,10 +64,10 @@ router.post("/charge", (req, res) => {
           customer: customer.id
         })
       )
-      .then(() => res.render('completed.html'))
+      .then(() => res.render('completed'))
       .catch(err => {
         console.log(err)
-        res.render('failed.html')
+        res.render('failed')
         return
       });
   } catch (err) {
