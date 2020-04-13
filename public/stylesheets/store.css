@@ -333,7 +333,7 @@ button:active {
 }
 
 #country select {
-  /* margin: 0 -15px 0 -30px; */
+  margin: 0 -15px 0 -30px;
   /* padding: 0 15px 0 30px; */
 }
 
@@ -1294,6 +1294,11 @@ button:active {
   }
   #country::before {
     display: none;
+  }
+  #country select {
+    margin: 0 0px 0 0px;
+    width: 150px;
+    /* padding: 0 15px 0 30px; */
   }
   #checkout {
     margin-bottom: 0;
