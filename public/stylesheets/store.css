@@ -332,7 +332,7 @@ button:active {
 }
 
 #country select {
-  margin: 0 -15px 0 -30px;
+  /* margin: 0 -15px 0 -30px; */
   /* padding: 0 15px 0 30px; */
 }
 
